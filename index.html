@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Selectors Cheat Sheet</title> 
+</head>
+<body>
+    <h1>CSS Selectors</h1> 
+    <table class="center">
+         <tr>
+             <th>Selector</th>
+             <th>Example</th>
+             <th>Meaning</th>
+        </tr>
+        <tr>
+            <td>Universal Selector</td>
+            <td class="selector">* {}</td>
+            <td>Targets all elements on the page</td>
+         </tr>
+         <tr>
+            <td>Type Selector</td>
+            <td class="selector">h1, h2, h3 {}</td>
+            <td>Matches element names</td>
+         </tr>
+         <tr>
+            <td>Class Selector</td>
+            <td class="selector">.intro {}</td>
+            <td>Targets elements with a specific class attribute</td>
+         </tr>
+         <tr>
+            <td>ID Selector</td>
+            <td class="selector">#introduction {}</td>
+            <td>ID selector styles the element with the specified id</td>
+         </tr>
+         <tr>
+            <td>Child Selector</td>
+            <td class="selector">li > a {}</td>
+            <td>Targets any &lt;a&gt;elements that are children of an &lt;li&gt; element</td>
+        </tr>
+        <tr>
+            <td>Descendant Selector</td>
+            <td class="selector">p a {}</td>
+            <td>Targets any &lt;a&gt; that sits inside a &lt;p&gt; element</td>
+         </tr>
+         <tr>
+            <td>Adjacent Sibling Selector</td>
+            <td class="selector">h1 + p {}</td>
+            <td>Targets the first &lt;p&gt; after any &lt;h1&gt; element</td>
+         </tr>
+         <tr>
+            <td>General Sibling Selector</td>
+            <td class="selector">h1 ~ p {}</td>
+            <td>Targets both &lt;p&gt; elements of &lt;h1&gt; if you there is two</td>
+        </tr>
+    </table>     
+
+</body>
+</html>
